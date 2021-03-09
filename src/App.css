@@ -4,14 +4,27 @@
 
 .App-logo {
   height: 40vmin;
-  pointer-events: none;
+  pointer-events: none; 
+  border-radius: 25px 25px 25px 25px;
+  padding-bottom: 1em;
 }
 
+.ulApp1{
+  list-style-type: none;
+}
+
+.ulApp1 li{
+  text-align: center;
+  color: white;
+}
+
+/*
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
 }
+*/
 
 .App-header {
   background-color: #282c34;
@@ -27,7 +40,7 @@
 .App-link {
   color: #61dafb;
 }
-
+/*
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
@@ -36,3 +49,4 @@
     transform: rotate(360deg);
   }
 }
+*/

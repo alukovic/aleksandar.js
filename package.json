@@ -15,10 +15,16 @@
     "web-vitals": "^1.1.0"
   },
   "scripts": {
-    "start": "node server.js",
+    "start": "nodemon server.js",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "client": "npm run start --prefix client",
+    "dev": "Istovremeno \"npm start\" \"npm run client\"",
+    "watch": "npm-watch"
+  },
+  "watch": {
+    "build": "src/"
   },
   "eslintConfig": {
     "extends": [
@@ -37,5 +43,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7",
+    "npm-watch": "^0.7.0"
   }
 }
