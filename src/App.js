@@ -1,12 +1,17 @@
 import logo from './logo.svg';
 import aca1 from './aca1.png';
-
+import { Helmet } from 'react-helmet';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
+
+        <Helmet>
+          <title>Aleksandar-JS</title>
+        </Helmet>
+
         <img src={aca1} className="App-logo" alt="logo" />
         <a
           className="App-link"
