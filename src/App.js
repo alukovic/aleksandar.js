@@ -1,17 +1,20 @@
 import React from 'react';
 import logo from './logo.svg';
 import aca1 from './aca1.png';
-import { Helmet } from 'react-helmet';
-import './App.css';
 
+import './App.css';
+/*
+//import { Helmet } from 'react-helmet';
+        <Helmet>
+          <title>Aleksandar-JS</title>
+        </Helmet>
+*/
 function App() {
   return (
     <div className="App">
       <header className="App-header">
 
-        <Helmet>
-          <title>Aleksandar-JS</title>
-        </Helmet>
+
 
         <img src={aca1} className="App-logo" alt="logo" />
         <a
@@ -24,14 +27,16 @@ function App() {
           
         </a>
 
+        <a href="https://aleksandarlukovic.herokuapp.com/root/opis">Biografija</a>
     <ul className="ulApp1">
         <li>Naziv sajta: Aleksandar-JS </li>
         <li>Programski jezik: JavaScript</li>
         <li>Front-end: React.js</li>
         <li>Back-end: Node.js</li>
-        <li>Okvirna tema master rada: Sajber bezbednost u JavaScript Veb aplikacijama</li>
+        <li>Okvirna tema master rada: </li>
+        <li>JavaScript Veb aplikacije: mrežno programiranje i sajber bezbedost</li> 
     </ul>
-        Poslednja promena: 9. 3. 2021. //Uto. 
+        Poslednja promena: 12. 3. 2021. //Pet. 
       </header>
     </div>
   );
