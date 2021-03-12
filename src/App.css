@@ -18,6 +18,11 @@
   color: white;
 }
 
+.ulApp1 li:hover
+{
+  opacity: 0.7;
+}
+
 /*
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
@@ -37,8 +42,15 @@
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.App-link 
+{
+  color: #61dafb; 
+  text-decoration: none;
+}
+
+.App-link:hover
+{
+  opacity: 0.7;
 }
 /*
 @keyframes App-logo-spin {
@@ -50,3 +62,14 @@
   }
 }
 */
+
+.App a
+{
+  color: #61dafb;
+  text-decoration: none;
+}
+
+.App a:hover
+{
+  opacity: 0.7;
+}
