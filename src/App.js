@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import logo from './logo.svg';
 import aca1 from './aca1.png';
 
@@ -10,11 +10,14 @@ import './App.css';
         </Helmet>
 */
 function App() {
+
+  useEffect(() => {
+    document.title = 'Aleksandar-JS';
+  });
+
   return (
     <div className="App">
       <header className="App-header">
-
-
 
         <img src={aca1} className="App-logo" alt="logo" />
         <a
