@@ -12,7 +12,7 @@ import './App.css';
 function App() {
 
   useEffect(() => {
-    document.title = 'Aleksandar-JS';
+    document.title = 'Aleksandar Luković | JavaScript';
   });
 
   return (
@@ -32,7 +32,7 @@ function App() {
 
         <a href="https://aleksandarlukovic.herokuapp.com/root/opis">Biografija</a>
     <ul className="ulApp1">
-        <li>Naziv sajta: Aleksandar-JS </li>
+        <li>Naziv sajta: Aleksandar Luković | JavaScript </li>
         <li>Programski jezik: JavaScript</li>
         <li>Front-end: React.js</li>
         <li>Back-end: Node.js</li>
