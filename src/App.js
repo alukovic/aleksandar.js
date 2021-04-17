@@ -37,9 +37,9 @@ function App() {
         <li>Front-end: React.js</li>
         <li>Back-end: Node.js</li>
         <li>Okvirna tema master rada: </li>
-        <li>JavaScript Veb aplikacije: mrežno programiranje i sajber bezbednost</li> 
+        <li>JavaScript Veb tehnologije: mrežno programiranje i sajber bezbednost</li> 
     </ul>
-        Poslednja promena: 13. 3. 2021. //Sub. 
+        Poslednja promena: 17. 4. 2021. //Sub. 
       </header>
     </div>
   );
