@@ -18,9 +18,11 @@ function App() {
 
   return (
     <div className="App">
+
       <header className="App-header">
 
         <img src={aca2} className="App-logo" alt="logo" />
+
         <a
           className="App-link"
           href="https://aleksandarlukovic.herokuapp.com"
@@ -32,16 +34,23 @@ function App() {
         </a>
 
         <a href="https://aleksandarlukovic.herokuapp.com/root/opis">Biografija</a>
+
+        <a href="https://aleksandarlukovic.herokuapp.com/telekomunikacije/radovi">Spisak radova sa master studija</a> 
+
     <ul className="ulApp1">
+
         <li>Naziv sajta: Aleksandar Luković | JavaScript </li>
         <li>Programski jezik: JavaScript</li>
         <li>Front-end: React.js</li>
         <li>Back-end: Node.js</li>
         <li>Okvirna tema master rada: </li>
         <li>Implementacija softverskog rešenja za obradu multimedijalnih signala pomoću JavaScripta</li> 
+
     </ul>
+
         Poslednja promena: 1.7.2021. //Čet. 
       </header>
+
     </div>
   );
 }
