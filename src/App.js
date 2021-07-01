@@ -27,7 +27,7 @@ function App() {
           rel="noopener noreferrer"
         >
           Aleksandar Luković
-          
+            
         </a>
 
         <a href="https://aleksandarlukovic.herokuapp.com/root/opis">Biografija</a>
@@ -37,9 +37,9 @@ function App() {
         <li>Front-end: React.js</li>
         <li>Back-end: Node.js</li>
         <li>Okvirna tema master rada: </li>
-        <li>JavaScript tehnologije: mrežno programiranje i sajber bezbednost</li> 
+        <li>Implementacija softverskog rešenja za obradu multimedijalnih signala pomoću JavaScripta</li> 
     </ul>
-        Poslednja promena: 17. 4. 2021. //Sub. 
+        Poslednja promena: 1.7.2021. //Čet. 
       </header>
     </div>
   );
