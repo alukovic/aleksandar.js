@@ -1,6 +1,7 @@
 import React, { useEffect } from 'react';
 import logo from './logo.svg';
 import aca1 from './aca1.png';
+import aca2 from './aca2.jpg'; 
 
 import './App.css';
 /*
@@ -19,7 +20,7 @@ function App() {
     <div className="App">
       <header className="App-header">
 
-        <img src={aca1} className="App-logo" alt="logo" />
+        <img src={aca2} className="App-logo" alt="logo" />
         <a
           className="App-link"
           href="https://aleksandarlukovic.herokuapp.com"
